@@ -65,7 +65,7 @@ export default function PriceChart({ ticker }: { ticker: string }) {
           <YAxis domain={['auto', 'auto']} tick={{ fontSize: 11, fill: '#aaa' }} width={55} />
           <Tooltip
             contentStyle={{ fontSize: 12, borderRadius: 8, border: '0.5px solid #e5e5e5' }}
-            formatter={(val: number) => [`$${val}`, 'Price']}
+           formatter={(val) => [`$${Number(val).toFixed(2)}`, 'Price']}
           />
           <Line type="monotone" dataKey="price" stroke={isUp ? '#16a34a' : '#dc2626'} dot={false} strokeWidth={2} />
         </LineChart>
