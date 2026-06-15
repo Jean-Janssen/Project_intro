@@ -2,7 +2,7 @@
  
 A full-stack personal finance dashboard for tracking TSX and NYSE stocks and ETFs, with real-time price data and ML-powered 5-day price predictions.
  
-**Live demo:** [portfolioiq.vercel.app](https://portfolioiq.vercel.app) <!-- replace with your actual URL -->
+**Live demo:** [portfolioiq.vercel.app](project-intro-puf8.vercel.app) <!-- replace with your actual URL -->
  
 ---
  
